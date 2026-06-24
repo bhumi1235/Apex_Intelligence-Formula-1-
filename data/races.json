@@ -1,0 +1,8 @@
+{
+  "races": [
+    {"name": "Monaco Grand Prix", "date": "2026-05-23", "round": "1", "confidence": "high"},
+    {"name": "Canadian Grand Prix", "date": "2026-06-07", "round": "2", "confidence": "medium"},
+    {"name": "Spanish Grand Prix", "date": "2026-06-21", "round": "3", "confidence": "high"},
+    {"name": "British Grand Prix", "date": "2026-07-05", "round": "4", "confidence": "low"}
+  ]
+}

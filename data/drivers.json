@@ -1,0 +1,11 @@
+{
+  "drivers": [
+    {"name": "Max Verstappen", "team": "Red Bull", "teamColor": "#1E41FF"},
+    {"name": "Charles Leclerc", "team": "Ferrari", "teamColor": "#dc0000"},
+    {"name": "Lando Norris", "team": "McLaren", "teamColor": "#FF8000"},
+    {"name": "George Russell", "team": "Mercedes", "teamColor": "#00D2BE"},
+    {"name": "Lewis Hamilton", "team": "Ferrari", "teamColor": "#dc0000"},
+    {"name": "Oscar Piastri", "team": "McLaren", "teamColor": "#FF8000"},
+    {"name": "Carlos Sainz", "team": "Williams", "teamColor": "#005AFF"}
+  ]
+}
