@@ -1,35 +1,19 @@
 import streamlit as st
 
+
 def render_navbar():
-
-    cols = st.columns([2,1,1,1,1,1])
-
-    with cols[0]:
-        st.markdown("## APEX INTELLIGENCE")
-
     st.markdown(
-"""
-<div style="
-display:flex;
-justify-content:space-between;
-align-items:center;
-">
-
-<h1>APEX INTELLIGENCE</h1>
-
-<div>
-
-HOME &nbsp;&nbsp;&nbsp;
-HISTORICAL &nbsp;&nbsp;&nbsp;
-DRIVER RANKINGS &nbsp;&nbsp;&nbsp;
-ANALYTICS &nbsp;&nbsp;&nbsp;
-ABOUT
-
-</div>
-
-</div>
-""",
-unsafe_allow_html=True
-)
-
-    st.divider()
+        """
+        <div class="apex-navbar">
+          <div class="brand">APEX<span>.</span>INTELLIGENCE</div>
+          <div class="nav-links">
+            <a href="/home"            target="_self">Home</a>
+            <a href="/historical"      target="_self">Historical</a>
+            <a href="/driver_rankings" target="_self">Driver Rankings</a>
+            <a href="/analytics"       target="_self">Analytics</a>
+            <a href="/about"           target="_self">About</a>
+          </div>
+        </div>
+        """,
+        unsafe_allow_html=True,
+    )
